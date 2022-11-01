@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    margin: auto;
+    width: 1350px;
+}
+
+#logo {
+    background-color: black;
+    text-align: center;
+    font-size: 64px;
+    font-weight: normal;
+    font-family: 'Gravitas One', cursive;
+}
+
+#logo p a {
+    color: white;
+}
+
+#nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Gravitas One', cursive;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1, h2{
+    font-family: 'Gravitas One', cursive;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 32px;
+}
+
+h2 {
+    margin-top: 24px;
+}
+p:not(#logo p){
+    text-indent: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+ul:not(#nav ul), ol {
+    padding-left: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    margin-top: 24px;
+    margin-top: 24px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-family: 'Gravitas One', cursive;
+    font-weight: normal;
+}
+
+td {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+caption {
+    font-family: 'Gravitas One', cursive;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.part {
+    float: left;
+    width: 50%;
+}
+
+#ranking, #ts10ranking {
+    float: left;
+    width: 50%;
+}
